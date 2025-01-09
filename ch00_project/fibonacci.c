@@ -8,11 +8,11 @@
 
 int main() {
     int a=1,b=1, fib;
-    printf("%d %d",a,b);
+    printf("%d %d ",a,b);
 
     while(1) {
         fib=a+b;
-        printf("%d",fib);
+        printf("%d ",fib);
         a=b;
         b=fib;
         if(fib>13) {
