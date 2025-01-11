@@ -4,9 +4,12 @@
 //3.4+1+2=7
 int main() {
     int num=412;
-    int x=num%100;
-    int y=num%10;
-    int z=num%1;
-    printf("x+y+z=%d",num);
+    int total=0;
+
+    while(num>0) {
+        total=total+num%10;
+        num=num/10;
+    }
+    printf("총합:%d",total);
 
 }
