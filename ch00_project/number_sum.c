@@ -3,10 +3,10 @@
 //2.
 //3.4+1+2=7
 int main() {
-    int num=412;
-    int x=num%100;
-    int y=num%10;
-    int z=num%1;
-    printf("x+y+z=%d",num);
+    int num;
+    int total=0;
 
+    printf("숫자:");
+    scanf("%d",&num);
+    
 }
