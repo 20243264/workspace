@@ -7,6 +7,9 @@ int main() {
     dessert="banana";
     printf("내일 후식은 %s입니다.\n",dessert);
     //같은 문자열 상수를 여러 번 사용할 때
+    //-"grape" 문자열을 메모리에 저장하고 그 주소를 공유하도록 함
+    //-즉, 여러번 사용해도 문자열은 1개만 저장 됨 
+    //객체지향언어는 문자열을 객체로 저장하고, 같은 문자열을 호출할 경우 객체를 공유해서 사용하도록 함함
     char *pa="grape";
     char *pb="grape";
     char *pc="grape";
