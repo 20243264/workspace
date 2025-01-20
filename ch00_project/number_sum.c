@@ -3,7 +3,6 @@
 //2.
 //3.4+1+2=7
 int main() {
-<<<<<<< HEAD
     int num;
     int total=0;
 
@@ -11,15 +10,3 @@ int main() {
     scanf("%d",&num);
     
 }
-=======
-    int num=412;
-    int total=0;
-
-    while(num>0) {
-        total=total+num%10;
-        num=num/10;
-    }
-    printf("총합:%d",total);
-
-}
->>>>>>> 2945dfcf4c1a6507a7a56857f66074e513775e58

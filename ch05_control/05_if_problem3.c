@@ -14,4 +14,5 @@ int main() {
         printf("%d가 더 크다",num2);
     } else if(num1==num2) {
         printf("%d와 %d가 같다",num1,num2);   
+   }     
 }
